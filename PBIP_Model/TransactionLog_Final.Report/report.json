@@ -418,12 +418,12 @@
           "z": 3000.00
         },
         {
-          "config": "{\"name\":\"8402ce90947060a31e9c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1011.4239756548201,\"y\":124.64732094337572,\"z\":1000,\"width\":268.8820780349962,\"height\":123.75698293663733,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"TransactionsLog._CountSales>5B_newbalanceDest_v2\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TransactionsLog\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_CountSales > 50M _newbalanceDest_v2\"},\"Name\":\"TransactionsLog._CountSales>5B_newbalanceDest_v2\",\"NativeReferenceName\":\"_CountSales > 50M _newbalanceDest_v2\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_CountSales > 50M _newbalanceDest_v2\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'metric_v2'\"}}}}}]}}}",
+          "config": "{\"name\":\"8402ce90947060a31e9c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":82.14285714285715,\"y\":262.14285714285717,\"z\":1000,\"width\":268.5714285714286,\"height\":123.57142857142858,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"TransactionsLog._CountSales>5B_newbalanceDest_v2\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"TransactionsLog\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_CountSales > 50M _newbalanceDest_v2\"},\"Name\":\"TransactionsLog._CountSales>5B_newbalanceDest_v2\",\"NativeReferenceName\":\"_CountSales > 50M _newbalanceDest_v2\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_CountSales > 50M _newbalanceDest_v2\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'metric_v2'\"}}}}}]}}}",
           "filters": "[]",
-          "height": 123.76,
-          "width": 268.88,
-          "x": 1011.42,
-          "y": 124.65,
+          "height": 123.57,
+          "width": 268.57,
+          "x": 82.14,
+          "y": 262.14,
           "z": 1000.00
         }
       ],
