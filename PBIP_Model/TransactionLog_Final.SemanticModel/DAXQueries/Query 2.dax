@@ -1,0 +1,4 @@
+EVALUATE
+	ROW(
+		"v_CountSales___50M__newbalanceDest", 'TransactionsLog'[_CountSales > 50M _newbalanceDest]
+	)

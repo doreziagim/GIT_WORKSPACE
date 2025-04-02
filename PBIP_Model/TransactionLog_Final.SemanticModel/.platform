@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "TransactionLog_Final"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7c4e8d8f-f539-4060-93c7-d61bf589e0ed"
+  }
+}

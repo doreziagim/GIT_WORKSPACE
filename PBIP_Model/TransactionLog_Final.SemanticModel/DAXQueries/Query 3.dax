@@ -1,0 +1,28 @@
+DEFINE
+	VAR __DS0Core = 
+		SUMMARIZECOLUMNS(
+			ROLLUPADDISSUBTOTAL(
+				ROLLUPGROUP('TransactionsLog'[SecRolesDest], 'TransactionsLog'[storeID]), "IsGrandTotalRowTotal"
+			),
+			"v_CountSales___50M__newbalanceDest", 'TransactionsLog'[_CountSales > 50M _newbalanceDest]
+		)
+
+	VAR __DS0PrimaryWindowed = 
+		TOPN(
+			5,
+			__DS0Core,
+			[IsGrandTotalRowTotal],
+			0,
+			'TransactionsLog'[SecRolesDest],
+			1,
+			'TransactionsLog'[storeID],
+			1
+		)
+
+EVALUATE
+	__DS0Core
+
+ORDER BY
+	[IsGrandTotalRowTotal] DESC,
+	'TransactionsLog'[SecRolesDest],
+	'TransactionsLog'[storeID]

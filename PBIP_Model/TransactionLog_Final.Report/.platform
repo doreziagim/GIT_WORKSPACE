@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "TransactionLog_Final"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7d980011-e032-4f36-892e-c7272dabcf47"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 55.5
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 640,
+            "y": 509
+          },
+          "nodeIndex": "TransactionsLog",
+          "nodeLineageTag": "57386d6b-abff-4fbc-a9cf-342cba0e2a4e",
+          "size": {
+            "height": 503,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 334,
+            "y": 59
+          },
+          "nodeIndex": "TableOrigin",
+          "nodeLineageTag": "f8b4befc-792c-4261-b515-a093827f34b1",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 82,
+            "y": 407.5
+          },
+          "nodeIndex": "TableDestination",
+          "nodeLineageTag": "44cfdbd7-8cb9-4aac-8df4-efdad0de1216",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1161,
+            "y": 877.5
+          },
+          "nodeIndex": "TableTransactionType",
+          "nodeLineageTag": "dfa376e9-a86e-43fa-8e6f-245d6a7b498d",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 975,
+            "y": 471.25
+          },
+          "nodeIndex": "Stores",
+          "nodeLineageTag": "edcd7169-3d22-4bbe-af5e-9ceb3ec8d5b0",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 850,
+            "y": 42.25
+          },
+          "nodeIndex": "CalendarTable",
+          "nodeLineageTag": "0718a6d8-73cd-4a0f-a8ae-4c4653a383fa",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1236,
+            "y": 399.25
+          },
+          "nodeIndex": "Y_Q_MTD",
+          "nodeLineageTag": "3cedbf19-2bf5-4680-ac24-047f329c2e91",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "Calculation group",
+          "nodeLineageTag": "7ff0d897-08ea-486b-a7fc-cddfc4f63bc3",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "Fiscal CalendarTable",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "tst",
+          "nodeLineageTag": "ba16f0b3-c61c-4ab2-b3f0-55a86f567289",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 352.33333206176758,
+            "y": 371
+          },
+          "nodeIndex": "CalendarTable",
+          "nodeLineageTag": "0718a6d8-73cd-4a0f-a8ae-4c4653a383fa",
+          "size": {
+            "height": 294,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 676.33333206176758,
+            "y": 147
+          },
+          "nodeIndex": "Fiscal CalendarTable",
+          "size": {
+            "height": 313,
+            "width": 264
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "CalendarTable",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 2,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 552.33333206176758,
+            "y": 95
+          },
+          "nodeIndex": "Stores",
+          "nodeLineageTag": "edcd7169-3d22-4bbe-af5e-9ceb3ec8d5b0",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 53.333332061767578,
+            "y": 90
+          },
+          "nodeIndex": "TableOrigin",
+          "nodeLineageTag": "f8b4befc-792c-4261-b515-a093827f34b1",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 801.33333206176758,
+            "y": 92
+          },
+          "nodeIndex": "TableTransactionType",
+          "nodeLineageTag": "dfa376e9-a86e-43fa-8e6f-245d6a7b498d",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 303.33333206176758,
+            "y": 93
+          },
+          "nodeIndex": "TableDestination",
+          "nodeLineageTag": "44cfdbd7-8cb9-4aac-8df4-efdad0de1216",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 2
+        }
+      ],
+      "name": "Dimensions",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "CalendarTable",
+  "defaultDiagram": "All tables"
+}
