@@ -839,7 +839,7 @@
           },
           {
             "name": "count(*)",
-            "expression": "1",
+            "expression": "2",
             "formatString": "0",
             "lineageTag": "c6b83c44-c917-42f2-a59b-8ea7f825fcee"
           },
